@@ -5,19 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="text/javascript" href="assets/javascript/game.js">
     <title>Hangman</title>
 </head>
 <body>
     <header>
-        <h1>Rick And Morty Hangman</h1>
+        <h1>Hangman</h1>
         <h2>Time to play Bitch!</h2>
     </header>
         <div id="main-container">
-            <article id="left-container"></article>
-            <article id="right-container"></article>
+            <article id="left-container">
+
+                        
+                <div class="gameLetters">
+                    <h3 id="instructions">Guess at your own risk! Press any key to start... </h3>
+                
+                </div>
+
+                <div class="counter">
+                    <p id='chances'></p>
+                    <p id='correct'></p>
+                    <p id='incorrect'></p>
+                </div>
+
+            </article>
+            <article id="right-container">
+                
+            </article>
+
         </div>
-    
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

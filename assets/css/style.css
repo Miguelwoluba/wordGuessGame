@@ -1,0 +1,37 @@
+
+body{
+    font-family: 'Anton', sans-serif;
+}
+.gameLetters h3{
+display: inline-block;  
+color: white; 
+/* text-decoration: underline;
+text-decoration-color: darkorange;  */
+border: 1px solid darkorange;
+font-size: 30px;
+
+
+}
+
+header{
+    background-image: url("../images/rnm1.jpeg");
+    height: 500px;
+    width: 920px;
+    position: relative;
+}
+h1{
+    display: inline-block;
+    justify-content: bottom;
+    position: absolute;
+    color: white;
+    top: 400px;
+    left: 10px;
+}
+
+
+#instructions{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 0px;
+}
